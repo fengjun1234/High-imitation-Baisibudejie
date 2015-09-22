@@ -54,6 +54,8 @@
 		9991FD041B9721670051BDFC /* UIBarButtonItem+LSLCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = 9991FD031B9721670051BDFC /* UIBarButtonItem+LSLCategory.m */; };
 		9991FD071B9721C90051BDFC /* UIView+GetViewFrame.m in Sources */ = {isa = PBXBuildFile; fileRef = 9991FD061B9721C90051BDFC /* UIView+GetViewFrame.m */; };
 		9991FD0A1B9739590051BDFC /* LSLLoginRegisterTextFiled.m in Sources */ = {isa = PBXBuildFile; fileRef = 9991FD091B9739590051BDFC /* LSLLoginRegisterTextFiled.m */; };
+		999628DE1BB19393006453A9 /* baisibudejie1.gif in Resources */ = {isa = PBXBuildFile; fileRef = 999628DC1BB19393006453A9 /* baisibudejie1.gif */; };
+		999628DF1BB19393006453A9 /* baisibudejie2.gif in Resources */ = {isa = PBXBuildFile; fileRef = 999628DD1BB19393006453A9 /* baisibudejie2.gif */; };
 		999BC6E91BAB9A00008C7968 /* MJExtensionConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = 999BC6E81BAB9A00008C7968 /* MJExtensionConfig.m */; };
 		999BC6EC1BABE65A008C7968 /* LSLHeaderFooterView.m in Sources */ = {isa = PBXBuildFile; fileRef = 999BC6EB1BABE65A008C7968 /* LSLHeaderFooterView.m */; };
 		999C48721B9E7D7700A3F267 /* NSString+LSLExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 999C48711B9E7D7700A3F267 /* NSString+LSLExtension.m */; };
@@ -79,14 +81,14 @@
 		99F27E081B96B90D002B487C /* LSLFriendTrendsController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 99F27E061B96B90D002B487C /* LSLFriendTrendsController.xib */; };
 		99F27E0C1B96BDB7002B487C /* LSLLoginRegisterController.m in Sources */ = {isa = PBXBuildFile; fileRef = 99F27E0A1B96BDB7002B487C /* LSLLoginRegisterController.m */; };
 		99F27E0D1B96BDB7002B487C /* LSLLoginRegisterController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 99F27E0B1B96BDB7002B487C /* LSLLoginRegisterController.xib */; };
-		99F2AE271BAE770000089E63 /* LSLALLViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 99F2AE191BAE770000089E63 /* LSLALLViewController.m */; settings = {ASSET_TAGS = (); }; };
-		99F2AE281BAE770000089E63 /* LSLAudioViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 99F2AE1B1BAE770000089E63 /* LSLAudioViewController.m */; settings = {ASSET_TAGS = (); }; };
-		99F2AE291BAE770000089E63 /* LSLCommentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 99F2AE1D1BAE770000089E63 /* LSLCommentViewController.m */; settings = {ASSET_TAGS = (); }; };
-		99F2AE2A1BAE770000089E63 /* LSLCommentViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 99F2AE1E1BAE770000089E63 /* LSLCommentViewController.xib */; settings = {ASSET_TAGS = (); }; };
-		99F2AE2B1BAE770000089E63 /* LSLPictureViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 99F2AE201BAE770000089E63 /* LSLPictureViewController.m */; settings = {ASSET_TAGS = (); }; };
-		99F2AE2C1BAE770000089E63 /* LSLTopicViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 99F2AE221BAE770000089E63 /* LSLTopicViewController.m */; settings = {ASSET_TAGS = (); }; };
-		99F2AE2D1BAE770000089E63 /* LSLVideoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 99F2AE241BAE770000089E63 /* LSLVideoViewController.m */; settings = {ASSET_TAGS = (); }; };
-		99F2AE2E1BAE770000089E63 /* LSLWordViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 99F2AE261BAE770000089E63 /* LSLWordViewController.m */; settings = {ASSET_TAGS = (); }; };
+		99F2AE271BAE770000089E63 /* LSLALLViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 99F2AE191BAE770000089E63 /* LSLALLViewController.m */; };
+		99F2AE281BAE770000089E63 /* LSLAudioViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 99F2AE1B1BAE770000089E63 /* LSLAudioViewController.m */; };
+		99F2AE291BAE770000089E63 /* LSLCommentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 99F2AE1D1BAE770000089E63 /* LSLCommentViewController.m */; };
+		99F2AE2A1BAE770000089E63 /* LSLCommentViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 99F2AE1E1BAE770000089E63 /* LSLCommentViewController.xib */; };
+		99F2AE2B1BAE770000089E63 /* LSLPictureViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 99F2AE201BAE770000089E63 /* LSLPictureViewController.m */; };
+		99F2AE2C1BAE770000089E63 /* LSLTopicViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 99F2AE221BAE770000089E63 /* LSLTopicViewController.m */; };
+		99F2AE2D1BAE770000089E63 /* LSLVideoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 99F2AE241BAE770000089E63 /* LSLVideoViewController.m */; };
+		99F2AE2E1BAE770000089E63 /* LSLWordViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 99F2AE261BAE770000089E63 /* LSLWordViewController.m */; };
 		99FF009E1BA68C0100B32130 /* LSLTopic.m in Sources */ = {isa = PBXBuildFile; fileRef = 99FF009D1BA68C0100B32130 /* LSLTopic.m */; };
 		C8133A33EFEDB8E70A29D537 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FCFBF3B5100FBC7C1E2E196B /* libPods.a */; };
 /* End PBXBuildFile section */
@@ -193,6 +195,8 @@
 		9991FD061B9721C90051BDFC /* UIView+GetViewFrame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+GetViewFrame.m"; sourceTree = "<group>"; };
 		9991FD081B9739590051BDFC /* LSLLoginRegisterTextFiled.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LSLLoginRegisterTextFiled.h; sourceTree = "<group>"; };
 		9991FD091B9739590051BDFC /* LSLLoginRegisterTextFiled.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LSLLoginRegisterTextFiled.m; sourceTree = "<group>"; };
+		999628DC1BB19393006453A9 /* baisibudejie1.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = baisibudejie1.gif; sourceTree = "<group>"; };
+		999628DD1BB19393006453A9 /* baisibudejie2.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = baisibudejie2.gif; sourceTree = "<group>"; };
 		999BC6E71BAB9A00008C7968 /* MJExtensionConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MJExtensionConfig.h; path = Category/MJExtensionConfig.h; sourceTree = "<group>"; };
 		999BC6E81BAB9A00008C7968 /* MJExtensionConfig.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MJExtensionConfig.m; path = Category/MJExtensionConfig.m; sourceTree = "<group>"; };
 		999BC6EA1BABE65A008C7968 /* LSLHeaderFooterView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LSLHeaderFooterView.h; sourceTree = "<group>"; };
@@ -286,6 +290,7 @@
 		992DE6A61B953E27002B64AA = {
 			isa = PBXGroup;
 			children = (
+				999628DB1BB19393006453A9 /* Logo */,
 				992DE6B11B953E27002B64AA /* 龙百思不得姐 */,
 				992DE6CB1B953E27002B64AA /* 龙百思不得姐Tests */,
 				992DE6B01B953E27002B64AA /* Products */,
@@ -670,6 +675,15 @@
 			path = Category;
 			sourceTree = "<group>";
 		};
+		999628DB1BB19393006453A9 /* Logo */ = {
+			isa = PBXGroup;
+			children = (
+				999628DC1BB19393006453A9 /* baisibudejie1.gif */,
+				999628DD1BB19393006453A9 /* baisibudejie2.gif */,
+			);
+			path = Logo;
+			sourceTree = "<group>";
+		};
 		99F2AE171BAE770000089E63 /* Content */ = {
 			isa = PBXGroup;
 			children = (
@@ -789,8 +803,10 @@
 				99D56B4A1BA93161005349B9 /* LSLTopicPictureView.xib in Resources */,
 				99D56B4F1BA9B49E005349B9 /* LSLSeeBigPictureViewController.xib in Resources */,
 				992DE6C01B953E27002B64AA /* Images.xcassets in Resources */,
+				999628DF1BB19393006453A9 /* baisibudejie2.gif in Resources */,
 				9950C5E61BAB1F5A00796B2E /* LSLCommentCell.xib in Resources */,
 				999C48841B9ECEFE00A3F267 /* LSLUserCell.xib in Resources */,
+				999628DE1BB19393006453A9 /* baisibudejie1.gif in Resources */,
 				9906E7591BA40C43008ADB2E /* LSLPostWordToolBar.xib in Resources */,
 				999C487C1B9EC13400A3F267 /* LSLCategoryCell.xib in Resources */,
 				99F27E0D1B96BDB7002B487C /* LSLLoginRegisterController.xib in Resources */,
