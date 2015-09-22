@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="7706" systemVersion="14E46" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7703"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="LHF-G7-9qs" customClass="LSLTopicVideoView">
+            <rect key="frame" x="0.0" y="0.0" width="316" height="171"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="imageBackground" translatesAutoresizingMaskIntoConstraints="NO" id="iQe-Yc-Jae" userLabel="占位图片">
+                    <rect key="frame" x="0.0" y="15" width="316" height="25"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="25" id="cJc-7f-WKf"/>
+                    </constraints>
+                </imageView>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="0DJ-r4-2iu">
+                    <rect key="frame" x="0.0" y="0.0" width="316" height="171"/>
+                </imageView>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="iKL-mY-Rcb">
+                    <rect key="frame" x="126" y="54" width="63" height="63"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="63" id="UoF-51-GQC"/>
+                        <constraint firstAttribute="width" constant="63" id="aCD-62-wkc"/>
+                    </constraints>
+                    <state key="normal" image="video-play">
+                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                </button>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="987播放" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="GSK-bV-ag9">
+                    <rect key="frame" x="263.5" y="0.0" width="52" height="21"/>
+                    <color key="backgroundColor" white="0.0" alpha="0.47999999999999998" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="21" id="2C4-5k-UOi"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="09:08" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="weO-Id-mlY">
+                    <rect key="frame" x="279" y="150" width="36.5" height="21"/>
+                    <color key="backgroundColor" white="0.0" alpha="0.47999999999999998" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="21" id="0m0-Xr-KPQ"/>
+                        <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="21" id="8bz-NG-kZg"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <nil key="highlightedColor"/>
+                </label>
+            </subviews>
+            <color key="backgroundColor" white="0.66666666669999997" alpha="0.5" colorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstAttribute="centerX" secondItem="iKL-mY-Rcb" secondAttribute="centerX" id="0SJ-qK-iif"/>
+                <constraint firstAttribute="trailing" secondItem="iQe-Yc-Jae" secondAttribute="trailing" id="3UI-mp-NO1"/>
+                <constraint firstItem="iQe-Yc-Jae" firstAttribute="leading" secondItem="LHF-G7-9qs" secondAttribute="leading" id="8Pk-e0-K5G"/>
+                <constraint firstAttribute="bottom" secondItem="weO-Id-mlY" secondAttribute="bottom" id="AEm-0l-K1Z"/>
+                <constraint firstItem="iQe-Yc-Jae" firstAttribute="top" secondItem="LHF-G7-9qs" secondAttribute="top" constant="15" id="CgT-As-XJk"/>
+                <constraint firstItem="0DJ-r4-2iu" firstAttribute="leading" secondItem="LHF-G7-9qs" secondAttribute="leading" id="Dxb-Gn-zkk"/>
+                <constraint firstItem="0DJ-r4-2iu" firstAttribute="top" secondItem="LHF-G7-9qs" secondAttribute="top" id="FeW-Xd-TSC"/>
+                <constraint firstItem="GSK-bV-ag9" firstAttribute="top" secondItem="LHF-G7-9qs" secondAttribute="top" id="LSE-5v-21a"/>
+                <constraint firstAttribute="bottom" secondItem="0DJ-r4-2iu" secondAttribute="bottom" id="WtC-us-EP7"/>
+                <constraint firstAttribute="trailing" secondItem="weO-Id-mlY" secondAttribute="trailing" id="h2u-sl-ncL"/>
+                <constraint firstAttribute="trailing" secondItem="GSK-bV-ag9" secondAttribute="trailing" id="hf9-sA-N1Z"/>
+                <constraint firstAttribute="centerY" secondItem="iKL-mY-Rcb" secondAttribute="centerY" id="lyW-35-c4A"/>
+                <constraint firstAttribute="trailing" secondItem="0DJ-r4-2iu" secondAttribute="trailing" id="tJf-se-zTB"/>
+            </constraints>
+            <nil key="simulatedStatusBarMetrics"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <connections>
+                <outlet property="imageView" destination="0DJ-r4-2iu" id="yxq-hb-46K"/>
+                <outlet property="playCountLabel" destination="GSK-bV-ag9" id="115-cc-QeL"/>
+                <outlet property="playTimeLabel" destination="weO-Id-mlY" id="M0Y-0c-Dqn"/>
+            </connections>
+            <point key="canvasLocation" x="417" y="226.5"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="imageBackground" width="75" height="15"/>
+        <image name="video-play" width="71" height="71"/>
+    </resources>
+</document>

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="7706" systemVersion="14E46" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7703"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="LSLSquareWebViewController">
+            <connections>
+                <outlet property="back" destination="d78-pL-eJM" id="ww4-X9-NJS"/>
+                <outlet property="forward" destination="uiv-s4-EQQ" id="89D-JJ-WQM"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+                <outlet property="webView" destination="jTA-d4-MNI" id="q38-kI-V9H"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <toolbar opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="c4y-eX-gz0">
+                    <rect key="frame" x="0.0" y="556" width="600" height="44"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="44" id="dyS-Tb-hcm"/>
+                    </constraints>
+                    <items>
+                        <barButtonItem enabled="NO" image="back" id="d78-pL-eJM" userLabel="back">
+                            <connections>
+                                <action selector="goBackClick" destination="-1" id="bWM-Ra-A3u"/>
+                            </connections>
+                        </barButtonItem>
+                        <barButtonItem enabled="NO" image="forward" id="uiv-s4-EQQ" userLabel="forward">
+                            <connections>
+                                <action selector="goForwardClick" destination="-1" id="Loi-vc-LSm"/>
+                            </connections>
+                        </barButtonItem>
+                        <barButtonItem style="plain" systemItem="flexibleSpace" id="xu0-L8-WhJ"/>
+                        <barButtonItem systemItem="refresh" id="fxC-wc-xCe">
+                            <connections>
+                                <action selector="goRefreshClick" destination="-1" id="DE0-7t-Yl2"/>
+                            </connections>
+                        </barButtonItem>
+                    </items>
+                </toolbar>
+                <webView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="jTA-d4-MNI">
+                    <rect key="frame" x="0.0" y="0.0" width="600" height="556"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <connections>
+                        <outlet property="delegate" destination="-1" id="dXT-Qd-VUX"/>
+                    </connections>
+                </webView>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="c4y-eX-gz0" firstAttribute="top" secondItem="jTA-d4-MNI" secondAttribute="bottom" id="5o6-75-2Wu"/>
+                <constraint firstItem="jTA-d4-MNI" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="68z-2s-D2c"/>
+                <constraint firstItem="c4y-eX-gz0" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="Fuf-WS-dkF"/>
+                <constraint firstItem="jTA-d4-MNI" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="LxC-i7-MhD"/>
+                <constraint firstAttribute="trailing" secondItem="c4y-eX-gz0" secondAttribute="trailing" id="pnJ-Kr-4Fm"/>
+                <constraint firstAttribute="bottom" secondItem="c4y-eX-gz0" secondAttribute="bottom" id="tKe-tD-zv4"/>
+                <constraint firstAttribute="trailing" secondItem="jTA-d4-MNI" secondAttribute="trailing" id="xvc-bf-RYl"/>
+            </constraints>
+        </view>
+    </objects>
+    <resources>
+        <image name="back" width="32" height="32"/>
+        <image name="forward" width="32" height="32"/>
+    </resources>
+</document>

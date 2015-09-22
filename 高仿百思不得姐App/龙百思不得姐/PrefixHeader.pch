@@ -1,0 +1,52 @@
+//
+//  PrefixHeader.pch
+//  龙百思不得姐
+//
+//  Created by lisilong on 15/9/1.
+//  Copyright (c) 2015年 longshao. All rights reserved.
+//
+
+#ifndef _______PrefixHeader_pch
+#define _______PrefixHeader_pch
+
+#import "UIBarButtonItem+LSLCategory.h"
+#import "UIView+GetViewFrame.h"
+#import "UIImageView+LSLExtension.h"
+#import "LSLConst.h"
+#import "NSString+LSLExtension.h"
+#import "UITextField+LSLExtension.h"
+#import "NSDate+LSLExtension.h"
+#import "MJExtensionConfig.h"
+
+#ifdef DEBUG   // 调试阶段
+#define LSLLog(...) NSLog(__VA_ARGS__)
+#else   // 上线阶段
+#define LSLLog(...)
+#endif
+
+// 打印当前方法的方法名
+#define LSLFUNC NSLog(@"%s",__func__)
+
+// 普通argb颜色
+#define LSLARGBColor(a,r,g,b) [UIColor colorWithRed:(r)/255.0 green:(g)/255.0 blue:(b)/255.0 alpha:(a)/255.0]
+#define LSLBGColor(r,g,b) LSLARGBColor(255,(r),(g),(b))
+#define LSLGrayColor(v) LSLBGColor(v,v,v)
+#define LSLCommenBGColor LSLGrayColor(215)  // 灰色背景颜色
+// 随机色
+#define LSLRandomColor LSLARGBColor(255,(arc4random_uniform(255)),(arc4random_uniform(255)),(arc4random_uniform(255)))
+
+// 标签背景颜色
+#define LSLTagBtnBGColor LSLBGColor(96, 136, 208)
+
+// 弱引用
+#define LSLWeakSelf __weak typeof(self) weakSelf = self
+
+// 生成plist文件
+#define LSLWriteToPlist(date,fileName) [date writeToFile:[NSString stringWithFormat:@"/Users/lisilong/Desktop/%@.plist",fileName] atomically:YES];
+
+// UIScreen的高度
+#define LSLScreenHeight [UIScreen mainScreen].bounds.size.height
+// UIScreen的宽度
+#define LSLScreenWidth [UIScreen mainScreen].bounds.size.width
+
+#endif
