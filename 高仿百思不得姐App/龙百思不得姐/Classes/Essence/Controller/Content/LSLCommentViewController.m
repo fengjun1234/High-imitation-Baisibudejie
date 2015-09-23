@@ -105,7 +105,6 @@ static NSString * const LSLTableViewHeaderID = @"header";
     LSLWeakSelf;
     // 发送请求
     [self.manager GET:LSLRequestURL parameters:parameter success:^(NSURLSessionDataTask *task, id responseObject) {
-        LSLWriteToPlist(responseObject, @"comment");
         // 加载更多数据
         NSArray *moreComments = [LSLComment objectArrayWithKeyValuesArray:responseObject[@"data"]];
         [self.lastsComments addObjectsFromArray:moreComments];
