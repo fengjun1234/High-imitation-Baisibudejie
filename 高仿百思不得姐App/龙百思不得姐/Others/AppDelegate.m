@@ -25,8 +25,12 @@
         // 设置窗口的优先级 UIWindowLevelNormal < UIWindowLevelStatusBar < UIWindowLevelAlert
         _windowTow.windowLevel = UIWindowLevelAlert;
         _windowTow.frame = CGRectMake(0, 0, [UIScreen mainScreen].bounds.size.width, 20);
-//        _windowTow.backgroundColor = [UIColor yellowColor];
+        _windowTow.backgroundColor = [UIColor clearColor];
         [_windowTow addGestureRecognizer:[[UITapGestureRecognizer alloc] initWithTarget:self action:@selector(scrollToTop)]];
+        
+#warning iOS9之后，每一个window都需要一个根控制器，而且状态栏归最上层的window管
+        UIViewController *rootVC = [[UIViewController alloc] init];
+        _windowTow.rootViewController = rootVC;
     }
     return _windowTow;
 }

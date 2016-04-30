@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "14BB77752440A584B67BDC1E7B55037FE2EA89BE+++22E793F",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "14BB77752440A584B67BDC1E7B55037FE2EA89BE+++1B83436" : 0,
+    "14BB77752440A584B67BDC1E7B55037FE2EA89BE+++22E793F" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "93A38755-FE6A-4800-BEE9-77EFD1D1D765",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "14BB77752440A584B67BDC1E7B55037FE2EA89BE+++1B83436" : "",
+    "14BB77752440A584B67BDC1E7B55037FE2EA89BE+++22E793F" : "High-imitation-Baisibudejie"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "龙百思不得姐",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "高仿百思不得姐App\/龙百思不得姐.xcworkspace",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/SilongLi\/High-imitation-Baisibudejie.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "14BB77752440A584B67BDC1E7B55037FE2EA89BE+++1B83436"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/SilongLi\/High-imitation-Baisibudejie.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "14BB77752440A584B67BDC1E7B55037FE2EA89BE+++22E793F"
+    }
+  ]
+}
